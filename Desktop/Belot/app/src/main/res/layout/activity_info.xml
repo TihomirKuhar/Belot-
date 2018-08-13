@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infoActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#edeade"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="#edeade"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Naziv Aplikacije: Belot"
+                    android:textSize="20sp"
+                    android:paddingBottom="16dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="O Aplikaciji: \nAplikacija za vođenje rezultat kartaške igre Belot/Bela.Cilj je bio olakšati pisanje rezultata u navedenoj igri, uz što jednostavniji i intuitivniji kalkulator kojim se mogu služiti sve dobne skupine.\nVae victis!"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:paddingBottom="16dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Verzija: 1.0\nMin SDK verzija: 15\nKod i Dizajn: tkuhar\n"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:paddingBottom="16dp"/>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:onClick="goBack"
+                    android:id="@+id/button1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:drawableTop="@drawable/home_button25"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Kontakt"
+                    android:id="@+id/button_contact"
+                    android:onClick="saljiMail"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
