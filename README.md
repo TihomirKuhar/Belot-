@@ -7,7 +7,7 @@ Aplikacija za vođenje rezultat kartaške igre Belot/Bela. Cilj je bio olakšati
 <table style="width:100%">
   <caption>App gallery</caption>
   <tr>
-    <th><img src="/img/bellot-install.png"></th>
+    <th><img src="/img/belot-install.png"></th>
     <th><img src="/img/bellot-home.png"></th>
   </tr>
   <tr>
