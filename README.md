@@ -7,18 +7,14 @@ Aplikacija za vođenje rezultat kartaške igre Belot/Bela. Cilj je bio olakšati
 <table style="width:100%">
   <caption>App gallery</caption>
   <tr>
-    <th><img src="/img/StepListener-installed.png"></th>
-    <th><img src="/img/StepListener-home.png"></th>
+    <th><img src="/img/bellot-install.png"></th>
+    <th><img src="/img/bellot-home.png"></th>
   </tr>
   <tr>
-    <td><img src="/img/StepListener-running.png"></td>
-    <td><img src="/img/StepListener-drawer.png"></td>
+    <td><img src="/img/bellot-action1.png"></td>
+    <td><img src="/img/bellot-action2.png"></td>
   </tr>
   <tr>
-    <td><img src="/img/StepListener-notif1.png"></td>
-    <td><img src="/img/StepListener-notif2.png"></td>
-  </tr>
-  <tr>
-    <td><img src="/img/StepListener-callendar.png"></td>
+    <td><img src="/img/bellot-action3.png"></td>
   </tr>
 </table>
