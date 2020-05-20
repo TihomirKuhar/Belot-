@@ -16,5 +16,6 @@ Aplikacija za vođenje rezultat kartaške igre Belot/Bela. Cilj je bio olakšati
   </tr>
   <tr>
     <td><img src="/img/bellot-action3.png"></td>
+    <td><img src="/img/bellot-action-bar.png"></td>
   </tr>
 </table>
